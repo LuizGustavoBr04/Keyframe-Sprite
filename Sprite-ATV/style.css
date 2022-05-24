@@ -1,0 +1,11 @@
+.dino{
+    background: url("../Sprite-ATV/img/spritesheet.png") 0px -1163px;
+    height: 163px;
+    width: 150px;
+    animation: dino-correndo 1s steps(8) infinite;
+
+}
+ @keyframes dino-correndo{
+     0%{background-position-x: 0px;}
+     100%{background-position-x: -1200px;}
+ }
